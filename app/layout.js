@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
         <head>
           <link rel="icon" href="/logo-sm.png" sizes="any" />
         </head>
-        <body className={`${inter.className}`}>
+        <body className={`${inter.className}`} suppressHydrationWarning>
           <Header />
           <main className="min-h-screen">{children}</main>
           <Toaster richColors />
