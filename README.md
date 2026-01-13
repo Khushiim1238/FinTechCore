@@ -9,7 +9,7 @@
 
 ## 🌐 Live Demo & Deployment
 
-🚀 **COMING SOON:** [Add your deployment URL here]
+🚀 **Live Demo:** [Check out FinTechCore Live](https://fin-tech-core-fuxr79u11-khuhsiims-projects.vercel.app)
 
 ---
 
