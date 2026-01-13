@@ -1,24 +1,88 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# 🚀 FinTechCore
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+![FinTechCore Banner](public/logo.png)
 
-### Make sure to create a `.env` file with following variables -
+> **your intelligent financial companion.**  
+> Track, Analyze, and Master your finances with the power of AI.
 
+---
+
+## 🌐 Live Demo & Deployment
+
+🚀 **COMING SOON:** [Add your deployment URL here]
+
+---
+
+## ✨ Features
+
+*   **🤖 AI-Powered Insights:** Personalized financial advice and budget tracking using Gemini AI.
+*   **📊 Interactive Dashboard:** Real-time visualization of your income, expenses, and savings.
+*   **💳 Smart Transaction Management:** Categorize and track every penny with ease.
+*   **🔔 Intelligent Alerts:** Get notified about unusual spending or upcoming bills (via Inngest).
+*   **🔒 Bank-Grade Security:** Secure authentication with Clerk and robust data protection with ArcJet.
+*   **🎨 Modern UI/UX:** A sleek, responsive design built with Tailwind CSS and Shadcn UI.
+
+---
+
+## 🛠️ Tech Stack
+
+*   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/) & [Shadcn UI](https://ui.shadcn.com/)
+*   **Database:** [PostgreSQL](https://www.postgresql.org/) (via [Prisma ORM](https://www.prisma.io/))
+*   **Auth:** [Clerk](https://clerk.com/)
+*   **AI:** [Google Gemini](https://deepmind.google/technologies/gemini/)
+*   **Backend Ops:** [Inngest](https://www.inngest.com/) & [ArcJet](https://arcjet.com/)
+
+---
+
+## ⚡ Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Khushiim1238/FinTechCore.git
+cd FinTechCore
 ```
-DATABASE_URL=
-DIRECT_URL=
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
-
-GEMINI_API_KEY=
-
-RESEND_API_KEY=
-
-ARCJET_KEY=
+### 2️⃣ Install Dependencies
+```bash
+npm install
 ```
+
+### 3️⃣ Configure Environment
+Create a `.env` file in the root directory and add your keys:
+
+```ini
+# Database (Prisma)
+DATABASE_URL="postgresql://..."
+DIRECT_URL="postgresql://..."
+
+# Auth (Clerk)
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
+CLERK_SECRET_KEY=sk_test_...
+
+# AI (Gemini)
+GEMINI_API_KEY=...
+
+# Other Services
+RESEND_API_KEY=...
+ARCJET_KEY=...
+```
+
+### 4️⃣ Run the App
+```bash
+npm run dev
+```
+
+Visit `http://localhost:3000` to see your app in action! 🚀
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to maintain a fork and submit a Pull Request.
+
+---
+
+<p align="center">
+  Built with ❤️ by <b>Khushiim1238</b>
+</p>
